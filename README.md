@@ -6,7 +6,7 @@
 
 # DeepPARE: Interpretable Multi-Scale Pathway Representation Learning for Cancer Patient Stratification and Biomarker Discovery
 ## 1.Introduction
-This repository contains source code and data for **DeepPARE**。 <br>
+This repository contains source code and data for **DeepPARE**. <br>
 **DeepPARE** is an interpretable multi-scale pathway representation learning framework for cancer patient stratification and biomarker discovery. It integrates biological pathway knowledge with deep learning to learn biologically informed representations from transcriptomic profiles. DeepPARE first employs graph neural networks to encode **intra-pathway topology**, capturing structural relationships among genes within individual pathways. A pathway  graph attention module then learns **local pathway crosstalk**, followed by a transformer-based module that captures **global pathway dependencies**. The learned multi-scale pathway representations enable accurate cancer patient stratification while providing biological interpretability.<br> 
 Comprehensive benchmarking across diverse cancer-related tasks, including pan-cancer tissue-of-origin prediction, renal cancer subtype classification, and colorectal cancer subtype classification, demonstrates that **DeepPARE** consistently outperforms state-of-the-art methods. Interpretability analyses identify biologically relevant pathways and genes underlying model predictions, providing mechanistic insights into cancer heterogeneity and advancing precision oncology.<br>
 ## 2.Design of DeepPARE
