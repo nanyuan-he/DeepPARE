@@ -20,7 +20,7 @@ The repository is organised as follows:<br>
 - `Code/KGML` contains code for retrieving pathway KGML files from the KEGG database;
 - `Data/Pathway data` contains adjacency matrices of **individual pathways**, the **pathway-pathway interaction** adjacency matrix, and KGML files for all pathways;
 - `Data/example_data` provides example datasets for running the DeepPARE implementation;
-- `Data/Expression data` contains all transcriptomic datasets and corresponding sample annotations used in this study.
+- The complete transcriptomic datasets used in this study are available on Zenodo: https://doi.org/10.5281/zenodo.21623260
 
 ## 4.Installation
 **DeepPARE** relies on Python (version 3.12.10) environment.<br>
