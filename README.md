@@ -26,7 +26,7 @@ The repository is organised as follows:<br>
 **DeepPARE** relies on Python (version 3.12.10) environment.<br>
 - Install the necessary python packages for **DeepPARE**:<br>
 ```sh
-pip install -r numpy
+pip install numpy
 ```
 | Package         | Version                 |
 |:----------------|:------------------------|
